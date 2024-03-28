@@ -41,8 +41,8 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (selected_service == null || NameOrderTbx.Text == "" ||
-                DesiredPriceTbx.Text == "")
+            if (selected_service == null || string.IsNullOrEmpty(NameOrderTbx.Text) ||
+                 string.IsNullOrEmpty(DesiredPriceTbx.Text))
             {
                 MessageBox.Show("Вы ввели не все данные!");
                 return;
@@ -89,15 +89,17 @@ namespace FreelanceProgram
                     }
                 }
                 MessageBox.Show("Вы не создатель данного заказа!");
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             if (CustomerDgr.SelectedItem != null)
             {
-                if (selected_service == null || NameOrderTbx.Text == "" ||
-                    DesiredPriceTbx.Text == "")
+                if (selected_service == null || string.IsNullOrEmpty(NameOrderTbx.Text) ||
+                    string.IsNullOrEmpty(DesiredPriceTbx.Text))
                 {
                     MessageBox.Show("Вы ввели не все данные!");
                     return;

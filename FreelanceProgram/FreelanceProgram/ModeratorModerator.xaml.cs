@@ -41,6 +41,12 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             Moderator moderator = new Moderator();
             moderator.FirstName = FirstNameTbx.Text;
             moderator.SecondName = SecondNameTbx.Text;
@@ -59,11 +65,19 @@ namespace FreelanceProgram
                 context.Moderators.Remove(ModeratorDgr.SelectedItem as Moderator);
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.Moderators.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (ModeratorDgr.SelectedItem != null)
             {
                 var selected = ModeratorDgr.SelectedItem as Moderator;

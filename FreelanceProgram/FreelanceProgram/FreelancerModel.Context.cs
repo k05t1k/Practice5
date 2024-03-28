@@ -32,6 +32,7 @@ namespace FreelanceProgram
         public virtual DbSet<ServiceTable> ServiceTables { get; set; }
         public virtual DbSet<Specialization> Specializations { get; set; }
         public virtual DbSet<StatusService> StatusServices { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<UserRole> UserRoles { get; set; }
         public virtual DbSet<UserTable> UserTables { get; set; }
     }

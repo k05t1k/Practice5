@@ -52,11 +52,11 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (selected_service == null || FirstNameTbx.Text == "" ||
-                SecondNameTbx.Text == "" || selected_user == null ||
-                MiddleNameTbx.Text == "" || ExpWorkTbx.Text == "")
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text) ||
+                selected_user == null || string.IsNullOrEmpty(ExpWorkTbx.Text))
             {
-                MessageBox.Show("Вы ввели не все данные!");
+                MessageBox.Show("Вы ввели не все данные");
                 return;
             }
             Freelancer freelancer = new Freelancer();
@@ -85,19 +85,20 @@ namespace FreelanceProgram
                 context.Freelancers.Remove(ModeratorDgr.SelectedItem as Freelancer);
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.Freelancers.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            if (selected_service == null || FirstNameTbx.Text == "" ||
-                SecondNameTbx.Text == "" || selected_user == null ||
-                MiddleNameTbx.Text == "" || ExpWorkTbx.Text == "")
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text) ||
+                selected_user == null || string.IsNullOrEmpty(ExpWorkTbx.Text))
             {
-                MessageBox.Show("Вы ввели не все данные!");
+                MessageBox.Show("Вы ввели не все данные");
                 return;
             }
-
             if (ModeratorDgr.SelectedItem != null)
             {
 

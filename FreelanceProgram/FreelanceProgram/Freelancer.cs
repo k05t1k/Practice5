@@ -28,9 +28,9 @@ namespace FreelanceProgram
         public int UserID { get; set; }
         public int Service_ID { get; set; }
     
-        public virtual ServiceTable ServiceTable { private get; set; }
-        public virtual UserTable UserTable { private get; set; }
+        public virtual ServiceTable ServiceTable { get; set; }
+        public virtual UserTable UserTable { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Orders { private get; set; }
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }

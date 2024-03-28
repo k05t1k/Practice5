@@ -73,6 +73,16 @@
           <Property Name="ID_StatusService" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ServiceStatus" Type="varchar" MaxLength="100" Nullable="false" />
         </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
         <EntityType Name="UserRole">
           <Key>
             <PropertyRef Name="ID_Role" />
@@ -90,7 +100,9 @@
           <Property Name="UserRole_ID" Type="int" Nullable="false" />
         </EntityType>
         <Association Name="FK__Customer__Servic__440B1D61">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -102,7 +114,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Customer__UserID__4316F928">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -114,7 +128,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Freelance__Servi__47DBAE45">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -126,7 +142,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Freelance__UserI__46E78A0C">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -138,7 +156,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Moderator__UserI__4AB81AF0">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Moderator" Type="Self.Moderator" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -149,7 +169,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Customer__5535A963">
+        <Association Name="FK__Orders__Customer__5DCAEF64">
           <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -161,7 +181,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Freelanc__5441852A">
+        <Association Name="FK__Orders__Freelanc__5CD6CB2B">
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -173,7 +193,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Moderato__5629CD9C">
+        <Association Name="FK__Orders__Moderato__5EBF139D">
           <End Role="Moderator" Type="Self.Moderator" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
@@ -185,8 +205,10 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Service___571DF1D5">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+        <Association Name="FK__Orders__Service___5FB337D6">
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -197,8 +219,10 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__StatusSe__5812160E">
-          <End Role="StatusService" Type="Self.StatusService" Multiplicity="1" />
+        <Association Name="FK__Orders__StatusSe__60A75C0F">
+          <End Role="StatusService" Type="Self.StatusService" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="StatusService">
@@ -210,7 +234,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__ServiceTa__Speci__3E52440B">
-          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Specialization">
@@ -222,7 +248,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__UserTable__UserR__398D8EEE">
-          <End Role="UserRole" Type="Self.UserRole" Multiplicity="1" />
+          <End Role="UserRole" Type="Self.UserRole" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="UserTable" Type="Self.UserTable" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserRole">
@@ -241,6 +269,7 @@
           <EntitySet Name="ServiceTable" EntityType="Self.ServiceTable" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Specialization" EntityType="Self.Specialization" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="StatusService" EntityType="Self.StatusService" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserRole" EntityType="Self.UserRole" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserTable" EntityType="Self.UserTable" Schema="dbo" store:Type="Tables" />
           <AssociationSet Name="FK__Customer__Servic__440B1D61" Association="Self.FK__Customer__Servic__440B1D61">
@@ -263,23 +292,23 @@
             <End Role="UserTable" EntitySet="UserTable" />
             <End Role="Moderator" EntitySet="Moderator" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Customer__5535A963" Association="Self.FK__Orders__Customer__5535A963">
+          <AssociationSet Name="FK__Orders__Customer__5DCAEF64" Association="Self.FK__Orders__Customer__5DCAEF64">
             <End Role="Customer" EntitySet="Customer" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Freelanc__5441852A" Association="Self.FK__Orders__Freelanc__5441852A">
+          <AssociationSet Name="FK__Orders__Freelanc__5CD6CB2B" Association="Self.FK__Orders__Freelanc__5CD6CB2B">
             <End Role="Freelancer" EntitySet="Freelancer" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Moderato__5629CD9C" Association="Self.FK__Orders__Moderato__5629CD9C">
+          <AssociationSet Name="FK__Orders__Moderato__5EBF139D" Association="Self.FK__Orders__Moderato__5EBF139D">
             <End Role="Moderator" EntitySet="Moderator" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Service___571DF1D5" Association="Self.FK__Orders__Service___571DF1D5">
+          <AssociationSet Name="FK__Orders__Service___5FB337D6" Association="Self.FK__Orders__Service___5FB337D6">
             <End Role="ServiceTable" EntitySet="ServiceTable" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__StatusSe__5812160E" Association="Self.FK__Orders__StatusSe__5812160E">
+          <AssociationSet Name="FK__Orders__StatusSe__60A75C0F" Association="Self.FK__Orders__StatusSe__60A75C0F">
             <End Role="StatusService" EntitySet="StatusService" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -309,7 +338,7 @@
           <Property Name="Service_ID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="ServiceTable" Relationship="Self.FK__Customer__Servic__440B1D61" FromRole="Customer" ToRole="ServiceTable" />
           <NavigationProperty Name="UserTable" Relationship="Self.FK__Customer__UserID__4316F928" FromRole="Customer" ToRole="UserTable" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Customer__5535A963" FromRole="Customer" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Customer__5DCAEF64" FromRole="Customer" ToRole="Orders" />
         </EntityType>
         <EntityType Name="Freelancer">
           <Key>
@@ -324,7 +353,7 @@
           <Property Name="Service_ID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="ServiceTable" Relationship="Self.FK__Freelance__Servi__47DBAE45" FromRole="Freelancer" ToRole="ServiceTable" />
           <NavigationProperty Name="UserTable" Relationship="Self.FK__Freelance__UserI__46E78A0C" FromRole="Freelancer" ToRole="UserTable" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Freelanc__5441852A" FromRole="Freelancer" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Freelanc__5CD6CB2B" FromRole="Freelancer" ToRole="Orders" />
         </EntityType>
         <EntityType Name="Moderator">
           <Key>
@@ -336,7 +365,7 @@
           <Property Name="MiddleName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="UserID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="UserTable" Relationship="Self.FK__Moderator__UserI__4AB81AF0" FromRole="Moderator" ToRole="UserTable" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Moderato__5629CD9C" FromRole="Moderator" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Moderato__5EBF139D" FromRole="Moderator" ToRole="Orders" />
         </EntityType>
         <EntityType Name="Order">
           <Key>
@@ -350,11 +379,11 @@
           <Property Name="Moderator_ID" Type="Int32" />
           <Property Name="Service_ID" Type="Int32" Nullable="false" />
           <Property Name="StatusService_ID" Type="Int32" Nullable="false" />
-          <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__Customer__5535A963" FromRole="Orders" ToRole="Customer" />
-          <NavigationProperty Name="Freelancer" Relationship="Self.FK__Orders__Freelanc__5441852A" FromRole="Orders" ToRole="Freelancer" />
-          <NavigationProperty Name="Moderator" Relationship="Self.FK__Orders__Moderato__5629CD9C" FromRole="Orders" ToRole="Moderator" />
-          <NavigationProperty Name="ServiceTable" Relationship="Self.FK__Orders__Service___571DF1D5" FromRole="Orders" ToRole="ServiceTable" />
-          <NavigationProperty Name="StatusService" Relationship="Self.FK__Orders__StatusSe__5812160E" FromRole="Orders" ToRole="StatusService" />
+          <NavigationProperty Name="Customer" Relationship="Self.FK__Orders__Customer__5DCAEF64" FromRole="Orders" ToRole="Customer" />
+          <NavigationProperty Name="Freelancer" Relationship="Self.FK__Orders__Freelanc__5CD6CB2B" FromRole="Orders" ToRole="Freelancer" />
+          <NavigationProperty Name="Moderator" Relationship="Self.FK__Orders__Moderato__5EBF139D" FromRole="Orders" ToRole="Moderator" />
+          <NavigationProperty Name="ServiceTable" Relationship="Self.FK__Orders__Service___5FB337D6" FromRole="Orders" ToRole="ServiceTable" />
+          <NavigationProperty Name="StatusService" Relationship="Self.FK__Orders__StatusSe__60A75C0F" FromRole="Orders" ToRole="StatusService" />
         </EntityType>
         <EntityType Name="ServiceTable">
           <Key>
@@ -365,7 +394,7 @@
           <Property Name="Specialization_ID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Customers" Relationship="Self.FK__Customer__Servic__440B1D61" FromRole="ServiceTable" ToRole="Customer" />
           <NavigationProperty Name="Freelancers" Relationship="Self.FK__Freelance__Servi__47DBAE45" FromRole="ServiceTable" ToRole="Freelancer" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Service___571DF1D5" FromRole="ServiceTable" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__Service___5FB337D6" FromRole="ServiceTable" ToRole="Orders" />
           <NavigationProperty Name="Specialization" Relationship="Self.FK__ServiceTa__Speci__3E52440B" FromRole="ServiceTable" ToRole="Specialization" />
         </EntityType>
         <EntityType Name="Specialization">
@@ -382,7 +411,17 @@
           </Key>
           <Property Name="ID_StatusService" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="ServiceStatus" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__StatusSe__5812160E" FromRole="StatusService" ToRole="Orders" />
+          <NavigationProperty Name="Orders" Relationship="Self.FK__Orders__StatusSe__60A75C0F" FromRole="StatusService" ToRole="Orders" />
+        </EntityType>
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
         <EntityType Name="UserRole">
           <Key>
@@ -406,7 +445,9 @@
           <NavigationProperty Name="UserRole" Relationship="Self.FK__UserTable__UserR__398D8EEE" FromRole="UserTable" ToRole="UserRole" />
         </EntityType>
         <Association Name="FK__Customer__Servic__440B1D61">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -418,7 +459,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Customer__UserID__4316F928">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -429,7 +472,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Customer__5535A963">
+        <Association Name="FK__Orders__Customer__5DCAEF64">
           <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
@@ -442,7 +485,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Freelance__Servi__47DBAE45">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -454,7 +499,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Freelance__UserI__46E78A0C">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -465,7 +512,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Freelanc__5441852A">
+        <Association Name="FK__Orders__Freelanc__5CD6CB2B">
           <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
@@ -478,7 +525,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__Moderator__UserI__4AB81AF0">
-          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+          <End Role="UserTable" Type="Self.UserTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Moderator" Type="Self.Moderator" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserTable">
@@ -489,7 +538,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Moderato__5629CD9C">
+        <Association Name="FK__Orders__Moderato__5EBF139D">
           <End Role="Moderator" Type="Self.Moderator" Multiplicity="0..1" />
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
@@ -501,8 +550,10 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__Service___571DF1D5">
-          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+        <Association Name="FK__Orders__Service___5FB337D6">
+          <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="ServiceTable">
@@ -513,8 +564,10 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK__Orders__StatusSe__5812160E">
-          <End Role="StatusService" Type="Self.StatusService" Multiplicity="1" />
+        <Association Name="FK__Orders__StatusSe__60A75C0F">
+          <End Role="StatusService" Type="Self.StatusService" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="Orders" Type="Self.Order" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="StatusService">
@@ -526,7 +579,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__ServiceTa__Speci__3E52440B">
-          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+          <End Role="Specialization" Type="Self.Specialization" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="Specialization">
@@ -538,7 +593,9 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK__UserTable__UserR__398D8EEE">
-          <End Role="UserRole" Type="Self.UserRole" Multiplicity="1" />
+          <End Role="UserRole" Type="Self.UserRole" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
           <End Role="UserTable" Type="Self.UserTable" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="UserRole">
@@ -557,6 +614,7 @@
           <EntitySet Name="ServiceTables" EntityType="Self.ServiceTable" />
           <EntitySet Name="Specializations" EntityType="Self.Specialization" />
           <EntitySet Name="StatusServices" EntityType="Self.StatusService" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
           <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
           <EntitySet Name="UserTables" EntityType="Self.UserTable" />
           <AssociationSet Name="FK__Customer__Servic__440B1D61" Association="Self.FK__Customer__Servic__440B1D61">
@@ -567,7 +625,7 @@
             <End Role="UserTable" EntitySet="UserTables" />
             <End Role="Customer" EntitySet="Customers" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Customer__5535A963" Association="Self.FK__Orders__Customer__5535A963">
+          <AssociationSet Name="FK__Orders__Customer__5DCAEF64" Association="Self.FK__Orders__Customer__5DCAEF64">
             <End Role="Customer" EntitySet="Customers" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -579,7 +637,7 @@
             <End Role="UserTable" EntitySet="UserTables" />
             <End Role="Freelancer" EntitySet="Freelancers" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Freelanc__5441852A" Association="Self.FK__Orders__Freelanc__5441852A">
+          <AssociationSet Name="FK__Orders__Freelanc__5CD6CB2B" Association="Self.FK__Orders__Freelanc__5CD6CB2B">
             <End Role="Freelancer" EntitySet="Freelancers" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -587,15 +645,15 @@
             <End Role="UserTable" EntitySet="UserTables" />
             <End Role="Moderator" EntitySet="Moderators" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Moderato__5629CD9C" Association="Self.FK__Orders__Moderato__5629CD9C">
+          <AssociationSet Name="FK__Orders__Moderato__5EBF139D" Association="Self.FK__Orders__Moderato__5EBF139D">
             <End Role="Moderator" EntitySet="Moderators" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__Service___571DF1D5" Association="Self.FK__Orders__Service___571DF1D5">
+          <AssociationSet Name="FK__Orders__Service___5FB337D6" Association="Self.FK__Orders__Service___5FB337D6">
             <End Role="ServiceTable" EntitySet="ServiceTables" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
-          <AssociationSet Name="FK__Orders__StatusSe__5812160E" Association="Self.FK__Orders__StatusSe__5812160E">
+          <AssociationSet Name="FK__Orders__StatusSe__60A75C0F" Association="Self.FK__Orders__StatusSe__60A75C0F">
             <End Role="StatusService" EntitySet="StatusServices" />
             <End Role="Orders" EntitySet="Orders" />
           </AssociationSet>
@@ -686,6 +744,17 @@
               <MappingFragment StoreEntitySet="StatusService">
                 <ScalarProperty Name="ID_StatusService" ColumnName="ID_StatusService" />
                 <ScalarProperty Name="ServiceStatus" ColumnName="ServiceStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="FreelancingModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

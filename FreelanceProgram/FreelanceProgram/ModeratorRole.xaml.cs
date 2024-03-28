@@ -29,6 +29,11 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(RoleTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             UserRole role = new UserRole();
             role.RoleUser = RoleTbx.Text;
             context.UserRoles.Add(role);
@@ -43,11 +48,18 @@ namespace FreelanceProgram
                 context.UserRoles.Remove(ModeratorDgr.SelectedItem as UserRole);
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.UserRoles.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(RoleTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (ModeratorDgr.SelectedItem != null)
             {
                 var selected = ModeratorDgr.SelectedItem as UserRole;

@@ -41,6 +41,13 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(LoginTbx.Text) ||
+                string.IsNullOrEmpty(PasswordTbx.Text) ||
+                selected_role == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             UserTable user = new UserTable();
             user.LoginUser = LoginTbx.Text;
             user.PasswordUser = PasswordTbx.Text;
@@ -59,10 +66,19 @@ namespace FreelanceProgram
 
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.UserTables.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(LoginTbx.Text) ||
+                string.IsNullOrEmpty(PasswordTbx.Text) ||
+                selected_role == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (ModeratorDgr.SelectedItem != null)
             {
                 var selected = ModeratorDgr.SelectedItem as UserTable;

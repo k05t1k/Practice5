@@ -23,10 +23,10 @@ namespace FreelanceProgram
         public int Service_ID { get; set; }
         public int StatusService_ID { get; set; }
     
-        public virtual Customer Customer { private get; set; }
-        public virtual Freelancer Freelancer { private get; set; }
-        public virtual Moderator Moderator { private get; set; }
-        public virtual ServiceTable ServiceTable { private get; set; }
-        public virtual StatusService StatusService { private get; set; }
+        public virtual Customer Customer { get; set; }
+        public virtual Freelancer Freelancer { get; set; }
+        public virtual Moderator Moderator { get; set; }
+        public virtual ServiceTable ServiceTable { get; set; }
+        public virtual StatusService StatusService { get; set; }
     }
 }

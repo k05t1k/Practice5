@@ -52,6 +52,13 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text) ||
+                selected_user == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             Customer customer = new Customer();
             customer.FirstName = FirstNameTbx.Text;
             customer.SecondName = SecondNameTbx.Text;
@@ -71,11 +78,20 @@ namespace FreelanceProgram
                 context.Customers.Remove(ModeratorDgr.SelectedItem as Customer);
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.Customers.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (selected_user == null || string.IsNullOrEmpty(FirstNameTbx.Text) ||
+                string.IsNullOrEmpty(SecondNameTbx.Text) || string.IsNullOrEmpty(MiddleNameTbx.Text) ||
+                selected_user == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (ModeratorDgr.SelectedItem != null)
             {
                 var selected = ModeratorDgr.SelectedItem as Customer;

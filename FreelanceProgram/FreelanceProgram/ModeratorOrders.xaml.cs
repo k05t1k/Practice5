@@ -68,8 +68,8 @@ namespace FreelanceProgram
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (CustCbx.SelectedItem == null || ServCbx.SelectedItem == null ||
-                NameOrderTbx.Text == "" || FreeCbx.SelectedItem == null ||
-                DesiredPriceTbx.Text == "")
+                string.IsNullOrWhiteSpace(NameOrderTbx.Text) || FreeCbx.SelectedItem == null ||
+                string.IsNullOrWhiteSpace(DesiredPriceTbx.Text))
             {
                 MessageBox.Show("Вы заполнили не все данные");
                 return;
@@ -117,14 +117,16 @@ namespace FreelanceProgram
                     }
                 }
                 MessageBox.Show("Вы не работаете с этим заказом");
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             if (CustCbx.SelectedItem == null || ServCbx.SelectedItem == null ||
-                NameOrderTbx.Text == "" || FreeCbx.SelectedItem == null ||
-                DesiredPriceTbx.Text == "")
+               string.IsNullOrWhiteSpace(NameOrderTbx.Text) || FreeCbx.SelectedItem == null ||
+               string.IsNullOrWhiteSpace(DesiredPriceTbx.Text))
             {
                 MessageBox.Show("Вы заполнили не все данные");
                 return;

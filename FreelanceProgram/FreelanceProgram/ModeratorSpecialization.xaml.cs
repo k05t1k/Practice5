@@ -29,6 +29,11 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(SpecTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             Specialization specialization = new Specialization();
             specialization.NameSpecialization = SpecTbx.Text;
             context.Specializations.Add(specialization);
@@ -43,11 +48,18 @@ namespace FreelanceProgram
                 context.Specializations.Remove(ModeratorDgr.SelectedItem as Specialization);
                 context.SaveChanges();
                 ModeratorDgr.ItemsSource = context.Specializations.ToList();
+                return;
             }
+            MessageBox.Show("Вы не выделили данные");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(SpecTbx.Text))
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (ModeratorDgr.SelectedItem != null)
             {
                 var selected = ModeratorDgr.SelectedItem as Specialization;

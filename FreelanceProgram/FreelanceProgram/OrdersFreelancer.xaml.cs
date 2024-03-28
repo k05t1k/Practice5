@@ -43,6 +43,11 @@ namespace FreelanceProgram
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (SelectedItem == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (SelectedItem != null)
             {
                 var freelancer_data = context.Freelancers.ToList();
@@ -68,6 +73,11 @@ namespace FreelanceProgram
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            if (SelectedItem == null)
+            {
+                MessageBox.Show("Вы ввели не все данные");
+                return;
+            }
             if (SelectedItem != null)
             {
                 var freelancer_data = context.Freelancers.ToList();

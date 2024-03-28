@@ -89,7 +89,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Customer.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="CustomerOrders.xaml.cs">
       <DependentUpon>CustomerOrders.xaml</DependentUpon>
@@ -97,20 +97,30 @@
     <Compile Include="CustomerPanel.xaml.cs">
       <DependentUpon>CustomerPanel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FreelanceModel.cs">
+    <Compile Include="Freelancer.cs">
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FreelancerModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Freelancer.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+    <Compile Include="FreelancerModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FreelancerModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FreelancerModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="FreelancerPanel.xaml.cs">
       <DependentUpon>FreelancerPanel.xaml</DependentUpon>
     </Compile>
     <Compile Include="GlobalInfo.cs" />
     <Compile Include="Moderator.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="ModeratorCustomer.xaml.cs">
       <DependentUpon>ModeratorCustomer.xaml</DependentUpon>
@@ -137,7 +147,7 @@
       <DependentUpon>ModeratorUsers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Order.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="OrdersFreelancer.xaml.cs">
       <DependentUpon>OrdersFreelancer.xaml</DependentUpon>
@@ -146,19 +156,22 @@
       <DependentUpon>OrdersStatusFreelancer.xaml</DependentUpon>
     </Compile>
     <Compile Include="ServiceTable.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Specialization.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="StatusService.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserRole.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Compile Include="UserTable.cs">
-      <DependentUpon>FreelanceModel.tt</DependentUpon>
+      <DependentUpon>FreelancerModel.tt</DependentUpon>
     </Compile>
     <Page Include="CustomerOrders.xaml">
       <SubType>Designer</SubType>
@@ -179,16 +192,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="FreelanceModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FreelanceModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FreelanceModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>FreelanceModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -260,12 +263,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="FreelanceModel.edmx">
+    <EntityDeploy Include="FreelancerModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>FreelanceModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>FreelancerModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="FreelanceModel.edmx.diagram">
-      <DependentUpon>FreelanceModel.edmx</DependentUpon>
+    <None Include="FreelancerModel.edmx.diagram">
+      <DependentUpon>FreelancerModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -277,19 +280,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FreelanceModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FreelanceModel.Context.cs</LastGenOutput>
-      <DependentUpon>FreelanceModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="FreelanceModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>FreelanceModel.edmx</DependentUpon>
-      <LastGenOutput>FreelanceModel.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="FreelancerModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FreelancerModel.edmx</DependentUpon>
+      <LastGenOutput>FreelancerModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="FreelancerModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FreelancerModel.edmx</DependentUpon>
+      <LastGenOutput>FreelancerModel.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.5.0.0\build\MaterialDesignThemes.targets')" />

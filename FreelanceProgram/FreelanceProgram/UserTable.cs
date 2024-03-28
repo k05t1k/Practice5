@@ -28,11 +28,11 @@ namespace FreelanceProgram
         public int UserRole_ID { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Customer> Customers { private get; set; }
+        public virtual ICollection<Customer> Customers { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Freelancer> Freelancers { private get; set; }
+        public virtual ICollection<Freelancer> Freelancers { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Moderator> Moderators { private get; set; }
-        public virtual UserRole UserRole { private get; set; }
+        public virtual ICollection<Moderator> Moderators { get; set; }
+        public virtual UserRole UserRole { get; set; }
     }
 }
