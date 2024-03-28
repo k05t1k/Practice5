@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8d508c9b03984b33b20f46c4750e4c7e" Name="Diagram1" ZoomLevel="79">
+        <EntityTypeShape EntityType="FreelancingModel.Customer" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.Freelancer" Width="1.5" PointX="8.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.Moderator" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.Order" Width="1.5" PointX="10.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.ServiceTable" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.Specialization" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.StatusService" Width="1.5" PointX="8.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.UserRole" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreelancingModel.UserTable" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="FreelancingModel.FK__Customer__Servic__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Customer__UserID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Orders__Customer__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Freelance__Servi__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Freelance__UserI__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Orders__Freelanc__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Moderator__UserI__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Orders__Moderato__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Orders__Service___571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__Orders__StatusSe__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__ServiceTa__Speci__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="FreelancingModel.FK__UserTable__UserR__398D8EEE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

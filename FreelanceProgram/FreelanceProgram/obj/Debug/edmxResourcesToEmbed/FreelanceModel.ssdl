@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище FreelancingModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="ID_Customer" />
+    </Key>
+    <Property Name="ID_Customer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="SecondName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="100" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Service_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Freelancer">
+    <Key>
+      <PropertyRef Name="ID_Freelancer" />
+    </Key>
+    <Property Name="ID_Freelancer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="SecondName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="100" />
+    <Property Name="ExperienceWork" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Service_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Moderator">
+    <Key>
+      <PropertyRef Name="ID_Moderator" />
+    </Key>
+    <Property Name="ID_Moderator" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="SecondName" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="MiddleName" Type="varchar" MaxLength="100" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Orders">
+    <Key>
+      <PropertyRef Name="ID_Orders" />
+    </Key>
+    <Property Name="ID_Orders" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameOrder" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="DesiredPrice" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Freelancer_ID" Type="int" />
+    <Property Name="Customer_ID" Type="int" Nullable="false" />
+    <Property Name="Moderator_ID" Type="int" />
+    <Property Name="Service_ID" Type="int" Nullable="false" />
+    <Property Name="StatusService_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ServiceTable">
+    <Key>
+      <PropertyRef Name="ID_Service" />
+    </Key>
+    <Property Name="ID_Service" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameService" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Specialization_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Specialization">
+    <Key>
+      <PropertyRef Name="ID_Specialization" />
+    </Key>
+    <Property Name="ID_Specialization" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameSpecialization" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StatusService">
+    <Key>
+      <PropertyRef Name="ID_StatusService" />
+    </Key>
+    <Property Name="ID_StatusService" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ServiceStatus" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="ID_Role" />
+    </Key>
+    <Property Name="ID_Role" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleUser" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserTable">
+    <Key>
+      <PropertyRef Name="ID_User" />
+    </Key>
+    <Property Name="ID_User" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LoginUser" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="PasswordUser" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="UserRole_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Customer__Servic__440B1D61">
+    <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceTable">
+        <PropertyRef Name="ID_Service" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Customer__UserID__4316F928">
+    <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTable">
+        <PropertyRef Name="ID_User" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Freelance__Servi__47DBAE45">
+    <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+    <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceTable">
+        <PropertyRef Name="ID_Service" />
+      </Principal>
+      <Dependent Role="Freelancer">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Freelance__UserI__46E78A0C">
+    <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+    <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTable">
+        <PropertyRef Name="ID_User" />
+      </Principal>
+      <Dependent Role="Freelancer">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Moderator__UserI__4AB81AF0">
+    <End Role="UserTable" Type="Self.UserTable" Multiplicity="1" />
+    <End Role="Moderator" Type="Self.Moderator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTable">
+        <PropertyRef Name="ID_User" />
+      </Principal>
+      <Dependent Role="Moderator">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__Customer__5535A963">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="ID_Customer" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Customer_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__Freelanc__5441852A">
+    <End Role="Freelancer" Type="Self.Freelancer" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Freelancer">
+        <PropertyRef Name="ID_Freelancer" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Freelancer_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__Moderato__5629CD9C">
+    <End Role="Moderator" Type="Self.Moderator" Multiplicity="0..1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Moderator">
+        <PropertyRef Name="ID_Moderator" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Moderator_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__Service___571DF1D5">
+    <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ServiceTable">
+        <PropertyRef Name="ID_Service" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="Service_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Orders__StatusSe__5812160E">
+    <End Role="StatusService" Type="Self.StatusService" Multiplicity="1" />
+    <End Role="Orders" Type="Self.Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusService">
+        <PropertyRef Name="ID_StatusService" />
+      </Principal>
+      <Dependent Role="Orders">
+        <PropertyRef Name="StatusService_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ServiceTa__Speci__3E52440B">
+    <End Role="Specialization" Type="Self.Specialization" Multiplicity="1" />
+    <End Role="ServiceTable" Type="Self.ServiceTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Specialization">
+        <PropertyRef Name="ID_Specialization" />
+      </Principal>
+      <Dependent Role="ServiceTable">
+        <PropertyRef Name="Specialization_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__UserTable__UserR__398D8EEE">
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="1" />
+    <End Role="UserTable" Type="Self.UserTable" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="ID_Role" />
+      </Principal>
+      <Dependent Role="UserTable">
+        <PropertyRef Name="UserRole_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище FreelancingModelContainer">
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Freelancer" EntityType="Self.Freelancer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Moderator" EntityType="Self.Moderator" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ServiceTable" EntityType="Self.ServiceTable" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Specialization" EntityType="Self.Specialization" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StatusService" EntityType="Self.StatusService" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserRole" EntityType="Self.UserRole" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserTable" EntityType="Self.UserTable" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Customer__Servic__440B1D61" Association="Self.FK__Customer__Servic__440B1D61">
+      <End Role="ServiceTable" EntitySet="ServiceTable" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Customer__UserID__4316F928" Association="Self.FK__Customer__UserID__4316F928">
+      <End Role="UserTable" EntitySet="UserTable" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Freelance__Servi__47DBAE45" Association="Self.FK__Freelance__Servi__47DBAE45">
+      <End Role="ServiceTable" EntitySet="ServiceTable" />
+      <End Role="Freelancer" EntitySet="Freelancer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Freelance__UserI__46E78A0C" Association="Self.FK__Freelance__UserI__46E78A0C">
+      <End Role="UserTable" EntitySet="UserTable" />
+      <End Role="Freelancer" EntitySet="Freelancer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Moderator__UserI__4AB81AF0" Association="Self.FK__Moderator__UserI__4AB81AF0">
+      <End Role="UserTable" EntitySet="UserTable" />
+      <End Role="Moderator" EntitySet="Moderator" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__Customer__5535A963" Association="Self.FK__Orders__Customer__5535A963">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__Freelanc__5441852A" Association="Self.FK__Orders__Freelanc__5441852A">
+      <End Role="Freelancer" EntitySet="Freelancer" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__Moderato__5629CD9C" Association="Self.FK__Orders__Moderato__5629CD9C">
+      <End Role="Moderator" EntitySet="Moderator" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__Service___571DF1D5" Association="Self.FK__Orders__Service___571DF1D5">
+      <End Role="ServiceTable" EntitySet="ServiceTable" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Orders__StatusSe__5812160E" Association="Self.FK__Orders__StatusSe__5812160E">
+      <End Role="StatusService" EntitySet="StatusService" />
+      <End Role="Orders" EntitySet="Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ServiceTa__Speci__3E52440B" Association="Self.FK__ServiceTa__Speci__3E52440B">
+      <End Role="Specialization" EntitySet="Specialization" />
+      <End Role="ServiceTable" EntitySet="ServiceTable" />
+    </AssociationSet>
+    <AssociationSet Name="FK__UserTable__UserR__398D8EEE" Association="Self.FK__UserTable__UserR__398D8EEE">
+      <End Role="UserRole" EntitySet="UserRole" />
+      <End Role="UserTable" EntitySet="UserTable" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

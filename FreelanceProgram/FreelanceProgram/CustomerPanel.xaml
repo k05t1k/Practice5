@@ -1,0 +1,18 @@
+﻿<Window x:Class="FreelanceProgram.CustomerPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FreelanceProgram"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="CustomerPanel" Height="450" Width="800">
+    <Grid>
+        <materialDesign:Card>
+            <Frame x:Name="PageFrame" NavigationUIVisibility="Hidden"/>
+        </materialDesign:Card>
+        <materialDesign:Card Margin="0,348,316,0">
+            <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Заказы" HorizontalAlignment="Left" VerticalAlignment="Center" Height="66" Width="474" Click="Button_Click"/>
+        </materialDesign:Card>
+    </Grid>
+</Window>
