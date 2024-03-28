@@ -3,36 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatororders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatororders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatororders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatororders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatormoderator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatormoderator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatormoderator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatormoderator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\ordersstatusfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\ordersstatusfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\ordersfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\ordersfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorspecialization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorspecialization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatororders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatororders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatormoderator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatormoderator.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\freelancerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\freelancerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|c:\\users\\cutec\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\freelanceprogram\\freelanceprogram\\moderatororders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatororders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatormoderator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatormoderator.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorfreelancer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,28 +95,12 @@
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\freelancerpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\freelancerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\freelancerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\freelancemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\freelancemodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerorders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|c:\\users\\cutec\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\freelanceprogram\\freelanceprogram\\customerorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerorders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerpanel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customerpanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\ordersstatusfreelancer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,44 +115,12 @@
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorcustomer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorfreelancer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorstatus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorstatus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorstatus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorspecialization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorspecialization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|solutionrelative:freelanceprogram\\moderatorrole.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB7A9569-6529-479C-A244-331EF5C26F01}|FreelanceProgram\\FreelanceProgram.csproj|C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\freelanceprogram\\moderatorrole.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -186,98 +186,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModeratorStatus.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorStatus.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorStatus.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T06:25:46.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ModeratorModerator.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorModerator.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorModerator.xaml.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAADgvygAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:38:07.256Z",
+              "Title": "ModeratorUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorUsers.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorUsers.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorUsers.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T06:24:25.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ModeratorOrders.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorOrders.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorOrders.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T06:23:20.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModeratorOrders.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorOrders.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorOrders.xaml.cs",
-              "ViewState": "AQIAAHoAAAAAAAAAAAAAAEIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:27:08.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModeratorModerator.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorModerator.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorModerator.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T23:35:00.135Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ModeratorPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorPanel.xaml.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAEwBkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T12:39:47.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ModeratorPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorPanel.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-24T11:50:01.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrdersStatusFreelancer.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersStatusFreelancer.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\OrdersStatusFreelancer.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersStatusFreelancer.xaml",
-              "RelativeToolTip": "FreelanceProgram\\OrdersStatusFreelancer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-27T23:20:45.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "OrdersFreelancer.xaml",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersFreelancer.xaml",
               "RelativeDocumentMoniker": "FreelanceProgram\\OrdersFreelancer.xaml",
@@ -289,7 +226,140 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersStatusFreelancer.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersStatusFreelancer.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\OrdersStatusFreelancer.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersStatusFreelancer.xaml",
+              "RelativeToolTip": "FreelanceProgram\\OrdersStatusFreelancer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T23:20:45.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModeratorSpecialization.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorSpecialization.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorSpecialization.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorSpecialization.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorSpecialization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T23:35:39.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModeratorRole.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorRole.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorRole.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorRole.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorRole.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T06:25:15.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Specialization.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Specialization.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\Specialization.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Specialization.cs",
+              "RelativeToolTip": "FreelanceProgram\\Specialization.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T12:53:45.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\MainWindow.xaml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T23:56:49.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ModeratorCustomer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorCustomer.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorCustomer.xaml.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwFUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T23:36:55.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ModeratorModerator.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorModerator.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorModerator.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAADgvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T23:38:07.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModeratorPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorPanel.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T11:50:01.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModeratorOrders.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorOrders.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorOrders.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T06:23:20.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ModeratorModerator.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorModerator.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorModerator.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorModerator.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T23:35:00.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ModeratorFreelancer.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorFreelancer.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorFreelancer.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorFreelancer.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorFreelancer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T23:33:38.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ModeratorFreelancer.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorFreelancer.xaml.cs",
               "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorFreelancer.xaml.cs",
@@ -297,12 +367,57 @@
               "RelativeToolTip": "FreelanceProgram\\ModeratorFreelancer.xaml.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAA9wGcAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:37:35.566Z",
+              "WhenOpened": "2024-03-25T23:37:35.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ModeratorStatus.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorStatus.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorStatus.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwDQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:28:28.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ModeratorCustomer.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorCustomer.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorCustomer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T23:34:44.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 43,
+              "Title": "ServiceFreelancer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ServiceFreelancer.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ServiceFreelancer.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:18:55.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ServiceFreelancer.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ServiceFreelancer.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml",
+              "RelativeToolTip": "FreelanceProgram\\ServiceFreelancer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T06:17:03.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "OrdersFreelancer.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersFreelancer.xaml.cs",
               "RelativeDocumentMoniker": "FreelanceProgram\\OrdersFreelancer.xaml.cs",
@@ -310,12 +425,11 @@
               "RelativeToolTip": "FreelanceProgram\\OrdersFreelancer.xaml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAEEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:02:42.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T06:02:42.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "FreelancerPanel.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelancerPanel.xaml.cs",
               "RelativeDocumentMoniker": "FreelanceProgram\\FreelancerPanel.xaml.cs",
@@ -323,12 +437,47 @@
               "RelativeToolTip": "FreelanceProgram\\FreelancerPanel.xaml.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T12:36:29.53Z",
+              "WhenOpened": "2024-03-24T12:36:29.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ModeratorOrders.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorOrders.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorOrders.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorOrders.xaml.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAAAIYAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:27:08.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml",
+              "RelativeToolTip": "FreelanceProgram\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T12:45:37.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FreelanceModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelanceModel.edmx",
+              "RelativeDocumentMoniker": "FreelanceProgram\\FreelanceModel.edmx",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelanceModel.edmx [Diagram1]",
+              "RelativeToolTip": "FreelanceProgram\\FreelanceModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-03-24T11:53:01.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "FreelancerPanel.xaml",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelancerPanel.xaml",
               "RelativeDocumentMoniker": "FreelanceProgram\\FreelancerPanel.xaml",
@@ -340,27 +489,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FreelanceModel.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelanceModel.edmx",
-              "RelativeDocumentMoniker": "FreelanceProgram\\FreelanceModel.edmx",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\FreelanceModel.edmx [Diagram1]",
-              "RelativeToolTip": "FreelanceProgram\\FreelanceModel.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-03-24T11:53:01.464Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 24,
+              "Title": "CustomerPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\CustomerPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\CustomerPanel.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T23:19:47.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Customer.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\Customer.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Customer.cs",
+              "RelativeToolTip": "FreelanceProgram\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T14:07:12.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "CustomerOrders.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerOrders.xaml.cs",
               "RelativeDocumentMoniker": "FreelanceProgram\\CustomerOrders.xaml.cs",
               "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerOrders.xaml.cs",
               "RelativeToolTip": "FreelanceProgram\\CustomerOrders.xaml.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAmwGoAAAAIAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAcwIAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T23:24:46.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerPanel.xaml",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml",
+              "RelativeDocumentMoniker": "FreelanceProgram\\CustomerPanel.xaml",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml",
+              "RelativeToolTip": "FreelanceProgram\\CustomerPanel.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T11:54:25.606Z",
               "EditorCaption": ""
             },
             {
@@ -377,32 +550,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomerPanel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\CustomerPanel.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\CustomerPanel.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAIwB0AAAAMAAAA",
+              "DocumentIndex": 19,
+              "Title": "ModeratorPanel.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml.cs",
+              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorPanel.xaml.cs",
+              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorPanel.xaml.cs",
+              "RelativeToolTip": "FreelanceProgram\\ModeratorPanel.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwBkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:19:47.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T12:39:47.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomerPanel.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\CustomerPanel.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\CustomerPanel.xaml",
-              "RelativeToolTip": "FreelanceProgram\\CustomerPanel.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-24T11:54:25.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "OrdersStatusFreelancer.xaml.cs",
               "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\OrdersStatusFreelancer.xaml.cs",
               "RelativeDocumentMoniker": "FreelanceProgram\\OrdersStatusFreelancer.xaml.cs",
@@ -410,157 +570,7 @@
               "RelativeToolTip": "FreelanceProgram\\OrdersStatusFreelancer.xaml.cs",
               "ViewState": "AQIAACsAAAAAAAAAAAAAABMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T23:21:23.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Specialization.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Specialization.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\Specialization.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Specialization.cs",
-              "RelativeToolTip": "FreelanceProgram\\Specialization.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T12:53:45.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\MainWindow.xaml.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAqwCQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T23:56:49.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\MainWindow.xaml",
-              "RelativeToolTip": "FreelanceProgram\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-27T12:45:37.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ModeratorCustomer.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorCustomer.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorCustomer.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T23:36:55.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Customer.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\Customer.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\Customer.cs",
-              "RelativeToolTip": "FreelanceProgram\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAiwA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T14:07:12.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ModeratorFreelancer.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorFreelancer.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorFreelancer.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorFreelancer.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorFreelancer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T23:33:38.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ModeratorCustomer.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorCustomer.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorCustomer.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorCustomer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T23:34:44.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ModeratorUsers.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorUsers.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorUsers.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorUsers.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorUsers.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T06:24:25.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ModeratorStatus.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorStatus.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorStatus.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T06:25:46.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ModeratorStatus.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorStatus.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorStatus.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorStatus.xaml.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwDQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:28:28.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ModeratorSpecialization.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorSpecialization.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorSpecialization.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorSpecialization.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorSpecialization.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T23:35:39.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "ModeratorRole.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorRole.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ModeratorRole.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ModeratorRole.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ModeratorRole.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T06:25:15.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T23:21:23.29Z"
             },
             {
               "$type": "Document",
@@ -572,8 +582,7 @@
               "RelativeToolTip": "FreelanceProgram\\ModeratorRole.xaml.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAIwDMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:27:48.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T06:27:48.432Z"
             },
             {
               "$type": "Document",
@@ -585,8 +594,7 @@
               "RelativeToolTip": "FreelanceProgram\\ModeratorUsers.xaml.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAswDMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:29:16.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T06:29:16.826Z"
             },
             {
               "$type": "Document",
@@ -647,28 +655,6 @@
               "ViewState": "AQIAACMAAAAAAAAAAAAUwCkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T23:38:30.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ServiceFreelancer.xaml",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ServiceFreelancer.xaml",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml",
-              "RelativeToolTip": "FreelanceProgram\\ServiceFreelancer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T06:17:03.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ServiceFreelancer.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml.cs",
-              "RelativeDocumentMoniker": "FreelanceProgram\\ServiceFreelancer.xaml.cs",
-              "ToolTip": "C:\\Users\\cutec\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0430\\FreelanceProgram\\FreelanceProgram\\ServiceFreelancer.xaml.cs",
-              "RelativeToolTip": "FreelanceProgram\\ServiceFreelancer.xaml.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T06:18:55.997Z"
             },
             {
               "$type": "Document",

@@ -11,9 +11,9 @@
         <materialDesign:Card>
             <StackPanel Margin="0,25,0,10">
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Логин" Height="24" Width="130"/>
-                <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="LoginTbx" Width="120" Margin="0,5,0,10"/>
+                <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="LoginTbx" Width="120" Margin="0,5,0,10"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Пароль" Height="24" Width="130"/>
-                <PasswordBox Style="{StaticResource MaterialDesignPasswordBox}" x:Name="PasswordBox" Width="120" Margin="0,5,0,10"/>
+                <PasswordBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignPasswordBox}" x:Name="PasswordBox" Width="120" Margin="0,5,0,10"/>
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Вход" Width="120" Click="Button_Click"/>
             </StackPanel>
         </materialDesign:Card>

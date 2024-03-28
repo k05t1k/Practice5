@@ -16,7 +16,7 @@
 
             <Grid x:Name="FuncDgr" Margin="489,0,0,0">
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Принять" HorizontalAlignment="Left" Margin="54,389,0,0" VerticalAlignment="Top" Width="94" Height="35" Click="Button_Click"/>
-                <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="NameOrderCbx" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="NameOrderCbx" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Название заказа" HorizontalAlignment="Left" Margin="54,45,0,0" VerticalAlignment="Top"/>
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Отклонить" HorizontalAlignment="Left" Margin="164,389,0,0" VerticalAlignment="Top" Width="94" Height="35" Click="Button_Click_1"/>
             </Grid>

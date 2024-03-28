@@ -18,15 +18,15 @@
             <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Удалить" HorizontalAlignment="Left" Margin="102,379,0,0" VerticalAlignment="Top" Width="95" Height="35" Click="Button_Click_1"/>
             <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Изменить" HorizontalAlignment="Left" Margin="204,379,0,0" VerticalAlignment="Top" Width="96" Height="35" Click="Button_Click_2"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Название заказа" HorizontalAlignment="Left" Margin="48,39,0,0" VerticalAlignment="Top"/>
-            <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="NameOrderTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="NameOrderTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Желаемая цена" HorizontalAlignment="Left" Margin="48,101,0,0" VerticalAlignment="Top"/>
-            <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="DesiredPriceTbx" HorizontalAlignment="Left" Margin="48,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="DesiredPriceTbx" HorizontalAlignment="Left" Margin="48,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Фрилансер" HorizontalAlignment="Left" Margin="48,160,0,0" VerticalAlignment="Top"/>
-            <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="FreeCbx" HorizontalAlignment="Left" Margin="48,186,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="FreeCbx_SelectionChanged"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="FreeCbx" HorizontalAlignment="Left" Margin="48,186,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="FreeCbx_SelectionChanged"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Заказчик" HorizontalAlignment="Left" Margin="48,211,0,0" VerticalAlignment="Top"/>
-            <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="CustCbx" HorizontalAlignment="Left" Margin="48,237,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="CustCbx_SelectionChanged"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="CustCbx" HorizontalAlignment="Left" Margin="48,237,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="CustCbx_SelectionChanged"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Услуга" HorizontalAlignment="Left" Margin="48,265,0,0" VerticalAlignment="Top"/>
-            <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="ServCbx" HorizontalAlignment="Left" Margin="48,291,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ServCbx_SelectionChanged"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="ServCbx" HorizontalAlignment="Left" Margin="48,291,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ServCbx_SelectionChanged"/>
         </Grid>
     </Grid>
 </Page>

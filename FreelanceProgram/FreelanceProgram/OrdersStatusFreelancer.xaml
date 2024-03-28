@@ -15,10 +15,10 @@
             </DataGrid>
             <Grid x:Name="FuncDgr" Margin="489,0,0,0">
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Применить" HorizontalAlignment="Center" Margin="0,388,0,0" VerticalAlignment="Top" Width="94" Height="35" Click="Button_Click"/>
-                <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="NameOrderCbx" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="NameOrderCbx" HorizontalAlignment="Center" Margin="0,71,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Название заказа" HorizontalAlignment="Left" Margin="54,45,0,0" VerticalAlignment="Top"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Статус Заказа" HorizontalAlignment="Left" Margin="54,97,0,0" VerticalAlignment="Top"/>
-                <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="StatusCbx" HorizontalAlignment="Center" Margin="0,123,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged_1"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="StatusCbx" HorizontalAlignment="Center" Margin="0,123,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged_1"/>
             </Grid>
     </Grid>
 </Page>

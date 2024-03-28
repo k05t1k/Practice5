@@ -19,10 +19,10 @@
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Удалить" HorizontalAlignment="Left" Margin="102,379,0,0" VerticalAlignment="Top" Width="95" Height="35" Click="Button_Click_1"/>
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Изменить" HorizontalAlignment="Left" Margin="204,379,0,0" VerticalAlignment="Top" Width="96" Height="35"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Логин" HorizontalAlignment="Left" Margin="48,39,0,0" VerticalAlignment="Top"/>
-                <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="LoginTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="LoginTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Пароль" HorizontalAlignment="Left" Margin="48,98,0,0" VerticalAlignment="Top"/>
-                <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="PasswordTbx" HorizontalAlignment="Left" Margin="48,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
-                <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="RoleCbx" HorizontalAlignment="Left" Margin="48,183,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="RoleCbx_SelectionChanged"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="PasswordTbx" HorizontalAlignment="Left" Margin="48,124,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="RoleCbx" HorizontalAlignment="Left" Margin="48,183,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="RoleCbx_SelectionChanged"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Роль" HorizontalAlignment="Left" Margin="48,157,0,0" VerticalAlignment="Top"/>
             </Grid>
     </Grid>

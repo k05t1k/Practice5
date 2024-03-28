@@ -18,7 +18,7 @@
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Удалить" HorizontalAlignment="Left" Margin="102,379,0,0" VerticalAlignment="Top" Width="95" Height="35" Click="Button_Click_1"/>
                 <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Изменить" HorizontalAlignment="Left" Margin="204,379,0,0" VerticalAlignment="Top" Width="96" Height="35" Click="Button_Click_2"/>
                 <Label Style="{StaticResource MaterialDesignLabel}" Content="Роль" HorizontalAlignment="Left" Margin="48,39,0,0" VerticalAlignment="Top"/>
-                <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="RoleTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="RoleTbx" HorizontalAlignment="Left" Margin="48,65,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
             </Grid>
     </Grid>
 </Page>

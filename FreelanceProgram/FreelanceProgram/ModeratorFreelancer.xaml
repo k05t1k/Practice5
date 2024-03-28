@@ -18,17 +18,17 @@
             <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Удалить" HorizontalAlignment="Left" Margin="102,385,0,0" VerticalAlignment="Top" Width="95" Height="35" Click="Button_Click_1"/>
             <Button Style="{StaticResource MaterialDesignFlatDarkBgButton}" Content="Изменить" HorizontalAlignment="Left" Margin="204,385,0,0" VerticalAlignment="Top" Width="96" Height="35" Click="Button_Click_2"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Имя" HorizontalAlignment="Left" Margin="48,24,0,0" VerticalAlignment="Top"/>
-            <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="FirstNameTbx" HorizontalAlignment="Left" Margin="48,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="FirstNameTbx" HorizontalAlignment="Left" Margin="48,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Фамилия" HorizontalAlignment="Left" Margin="49,83,0,0" VerticalAlignment="Top"/>
-            <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="SecondNameTbx" HorizontalAlignment="Left" Margin="49,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="SecondNameTbx" HorizontalAlignment="Left" Margin="49,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Отчество" HorizontalAlignment="Left" Margin="48,143,0,0" VerticalAlignment="Top"/>
             <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="MiddleNameTbx" HorizontalAlignment="Left" Margin="48,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
-            <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="UserCbx" HorizontalAlignment="Left" Margin="48,227,0,0" Width="204" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Top"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="UserCbx" HorizontalAlignment="Left" Margin="48,227,0,0" Width="204" SelectionChanged="ComboBox_SelectionChanged" VerticalAlignment="Top"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Пользователь" HorizontalAlignment="Left" Margin="49,202,0,0" VerticalAlignment="Top"/>
-            <ComboBox Style="{StaticResource MaterialDesignComboBox}" x:Name="ServiceCbx" HorizontalAlignment="Left" Margin="48,341,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged_1"/>
+            <ComboBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignComboBox}" x:Name="ServiceCbx" HorizontalAlignment="Left" Margin="48,341,0,0" VerticalAlignment="Top" Width="204" SelectionChanged="ComboBox_SelectionChanged_1"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Услуга" HorizontalAlignment="Left" Margin="49,315,0,0" VerticalAlignment="Top"/>
             <Label Style="{StaticResource MaterialDesignLabel}" Content="Опыт работы (в годах)" HorizontalAlignment="Left" Margin="48,253,0,0" VerticalAlignment="Top"/>
-            <TextBox Style="{StaticResource MaterialDesignTextBox}" x:Name="ExpWorkTbx" HorizontalAlignment="Left" Margin="48,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
+            <TextBox Foreground="#FFFFFEFE" Style="{StaticResource MaterialDesignTextBox}" x:Name="ExpWorkTbx" HorizontalAlignment="Left" Margin="48,279,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204"/>
         </Grid>
     </Grid>
 </Page>
